@@ -1,4 +1,4 @@
-import { Controller, Get, Res, HttpStatus, Query, Param } from '@nestjs/common';
+import { Controller, Get, Res, HttpStatus, Param } from '@nestjs/common';
 import { Response } from 'express';
 import { AppService } from './app.service';
 import * as MOCKED_RESPONSE from '../application.json';
